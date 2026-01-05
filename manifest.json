@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "description": "Customize any website with predefined themes, night mode, or random colors. The ultimate web experience enhancer.",
   "author": "shaheer",
+  "homepage_url": "https://github.com/mshaheerz/themify-extension",
   "developer": {
     "name": "shaheer"
   },
@@ -49,7 +50,15 @@
   "browser_specific_settings": {
     "gecko": {
       "id": "themify@shaheer.dev",
-      "strict_min_version": "109.0"
+      "strict_min_version": "109.0",
+      "data_collection_permissions": {
+        "required": [
+          "none"
+        ],
+        "optional": [
+          "technicalAndInteraction"
+        ]
+      }
     }
   }
 }
