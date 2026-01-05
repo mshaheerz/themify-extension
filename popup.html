@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Themify</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <img src="icon.png" alt="Themify Logo" class="logo-img">
+        <h1>Themify</h1>
+      </div>
+      <p class="subtitle">Customize your web experience</p>
+    </header>
+
+    <main>
+      <!-- Quick Actions -->
+      <section class="modes-grid">
+        <button id="mode-night" class="mode-card">
+          <span class="icon">🌙</span>
+          <span class="label">Night</span>
+        </button>
+        <button id="mode-light" class="mode-card">
+          <span class="icon">☀️</span>
+          <span class="label">Light</span>
+        </button>
+        <button id="mode-reading" class="mode-card">
+          <span class="icon">📖</span>
+          <span class="label">Reading</span>
+        </button>
+        <button id="mode-random" class="mode-card special">
+          <span class="icon">🎲</span>
+          <span class="label">Random</span>
+        </button>
+      </section>
+
+      <div class="divider"></div>
+
+      <!-- Predefined Themes -->
+      <section class="themes-section">
+        <h2>Rich Themes</h2>
+        <div class="themes-scroll">
+          <button class="theme-btn" data-theme="ocean" style="background: linear-gradient(135deg, #00c6ff, #0072ff);">Ocean</button>
+          <button class="theme-btn" data-theme="sunset" style="background: linear-gradient(135deg, #ff9966, #ff5e62);">Sunset</button>
+          <button class="theme-btn" data-theme="forest" style="background: linear-gradient(135deg, #11998e, #38ef7d);">Forest</button>
+          <button class="theme-btn" data-theme="berry" style="background: linear-gradient(135deg, #8E2DE2, #4A00E0);">Berry</button>
+          <button class="theme-btn" data-theme="midnight" style="background: linear-gradient(135deg, #232526, #414345);">Midnight</button>
+          <button class="theme-btn" data-theme="cyberpunk" style="background: linear-gradient(135deg, #000b1e, #00f3ff); border: 1px solid #00f3ff;">Cyberpunk</button>
+          <button class="theme-btn" data-theme="coffee" style="background: linear-gradient(135deg, #3e2723, #8d6e63);">Coffee</button>
+          <button class="theme-btn" data-theme="rose" style="background: linear-gradient(135deg, #ffafbd, #ffc3a0); color: #4a2c2c;">Rose</button>
+          <button class="theme-btn" data-theme="slate" style="background: linear-gradient(135deg, #1e293b, #38bdf8);">Slate</button>
+          <button class="theme-btn" data-theme="solarized" style="background: linear-gradient(135deg, #fdf6e3, #b58900); color: #586e75;">Solarized</button>
+          <button class="theme-btn" data-theme="high-contrast" style="background: #000; border: 1px solid white;">Contrast</button>
+        </div>
+      </section>
+
+      <div class="divider"></div>
+
+      <!-- Advanced Customization -->
+      <section class="custom-section">
+        <h2>Customizer</h2>
+        <div class="control-group">
+          <label for="bg-color">Background</label>
+          <input type="color" id="bg-color" value="#ffffff">
+        </div>
+        <div class="control-group">
+          <label for="text-color">Text</label>
+          <input type="color" id="text-color" value="#000000">
+        </div>
+
+      </section>
+
+      <div class="actions">
+        <button id="reset-btn" class="reset-btn">Reset All</button>
+      </div>
+    </main>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
