@@ -22,6 +22,7 @@ Themify is a powerful browser extension that allows you to customize the look an
 6. The extension is now installed! Click the puzzle icon to pin it.
 
 ### Mozilla Firefox
+https://addons.mozilla.org/en-US/firefox/addon/themify-theme-customizer/
 
 1. Open Firefox and go to `about:debugging#/runtime/this-firefox`.
 2. Click **Load Temporary Add-on...**.
